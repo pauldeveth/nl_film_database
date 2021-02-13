@@ -1,0 +1,114 @@
+
+body {
+	padding-bottom: 40px;
+	padding-top: 60px;
+}
+.sidebar-nav-fixed {
+	width:14%;
+}
+.container {
+	padding:0;
+	margin:0;
+}
+body {
+	padding:0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom:0;
+}
+.pull-right  {
+	right: 0;
+}
+/*
+ * Globals
+ */
+ body {
+ 	font-family: Georgia, "Times New Roman", Times, serif;
+ 	font-size: 20px;
+ 	color: #555;
+ }
+ h1, .h1,
+ h2, .h2,
+ h3, .h3,
+ h4, .h4,
+ h5, .h5,
+ h6, .h6 {
+ 	margin-top: 0;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	font-weight: normal;
+ 	color: #333;
+ }
+/*
+ * Override Bootstrap's default container.
+ */
+
+ @media (min-width: 1200px) {
+ 	.container {
+ 		width: 970px;
+ 	}
+ }
+
+
+
+ /* Pagination */
+ .pager {
+ 	margin-bottom: 60px;
+ 	text-align: left;
+ }
+ .pager > li > a {
+ 	width: 140px;
+ 	padding: 10px 20px;
+ 	text-align: center;
+ 	border-radius: 30px;
+ }
+
+
+
+ .jumbotron {
+ 	background-color:transparent !important;
+ }
+ .jumbotroncustomized {
+ 	position: relative;
+ 	padding:0 !important;
+ 	margin-top: 70px;
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ 	margin-bottom: 0 !important;
+ 	width: 100%;
+ 	color: inherit;
+ 	background-color: transparent;
+ }
+ 
+ .pagination a {
+ 	border: 1px solid #ddd; /* Gray */
+ }
+ .pagination a {
+ 	margin: 0 10px; /* 0 is for top and bottom. Feel free to change it */
+ }
+ .caption h3 {
+ 	min-height: 120px;
+ }
+ .navbar {
+    /*background:#162e99;*/
+    background:#3097d1;
+}
+.input-group {
+    margin-top: 6px;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child >.btn-group {
+    margin-top: -9px;
+}
+
+.thumbnail .caption .img-responsive {
+	position: absolute;
+	height: 50px;
+	width: auto;
+	margin-top: -95px;
+	
+	border: 1px solid
+		#fff;
+	}
+
+
